@@ -1,38 +1,61 @@
 body {
+    background: whitesmoke;
     min-height: 100vh;
-    max-width: 960px;
-    margin: auto;
     position: relative;
     display: table;
+    margin: auto;
 }
 
 #content-wrap {
+    max-width: 960px;
+    margin: auto;
     min-height: 100vh;
     padding-bottom: 0;
+    margin-bottom: 2.5em;
 }
 
+#content-wrap::after {
+    content: " ";
+    clear: both;
+    display: inline-block;
+}
+
+
+/* the white background for the navbar area */
 header {
-    width: 960px;
-    height: 80px;
-    background: slategray;
-    position: fixed;
-    border: 2px solid black;
+    width: 100vw;
+    height: 90px;
+    background: white;
+    position: absolute;
+    left: 0px;
+    border-bottom: 2px solid lightgray;
     z-index: 20;
+    margin-bottom: 20px;
 }
 
 
-h1 {
+/* parameters for the actual content of the navbar including name and links (to meet 960px criteria) */
+#navbar {
+    height: 90px;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* styling the name in the header */
+#name {
+    height: 100%;
     margin: 0px;
     padding: 20px;
     background: #4faaa5;
     color: white;
     float: left;
+    font-size: 36px;
 }
 
+/* the links in header */
 nav {
     position:relative;
     top: 30px;
-    right: 30px;
     background: white;
     float: right;   
 }
@@ -47,12 +70,21 @@ nav {
     display: block;
 }
 
+/* the white about me box that holds image and paragraph */
 main {
+    background: white;
+    margin-bottom: 2.5em;
     width: 960px;
-    border: 2px solid green;
+    border: 1px solid gainsboro;
     position: relative;
-    top: 100px;
+    top: 130px;
     z-index: 10;
+}
+
+#about {
+    position: relative;
+    color: #4faaa5;
+    left: 20px;
 }
 
 #image {
@@ -70,10 +102,12 @@ main {
 }
 
 footer {
+    background: #666666;
+    color: white;
     text-align: center;
-    width: 960px;
-    border: 2px solid red;
+    width: 100vw;
+    border-top: 8px solid #4faaa5;
     position: relative;
     bottom: 0px;
-    height: 2.5em;  
+    height: 3.8em;  
 }
