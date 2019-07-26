@@ -66,18 +66,19 @@ nav {
 }
 
 .link{
-    padding-left: 40px;
     font-size: 18px;
+}
+
+.vl {
+    color: gainsboro;
+    font-size: 18px;
+    font-weight: 200;
+
 }
 
 /* link button styling */
 
-a:link {
-    color: #777777;
-    text-decoration: none;
-}
-
-a:visited {
+a:link, a:visited {
     color: #777777;
     text-decoration: none;
 }
