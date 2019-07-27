@@ -126,7 +126,7 @@ main {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: relative;
     color: #4faaa5;
-    padding-top: 10px;
+    padding-top: 11px;
     font-size: 30px;
 }
 
@@ -161,4 +161,104 @@ footer {
     position: relative;
     bottom: 0px;
     height: 3.8em;  
+}
+
+#copyright {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    margin-bottom: 0px;
+}
+/* *****CONTACT FORM STYLING BELOW HERE***** */
+
+#contactline {
+    position: relative;
+    left: 30px;
+    max-width: 890px;
+    border-bottom: 3px solid gainsboro;
+    margin-bottom: 20px;
+}
+
+#contactwords {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    max-width: 890px;
+    position: relative;
+    left: 30px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 2rem;
+}
+
+#input {
+    font-size: 16px;
+    width: 884px;
+    position: relative;
+    left: 30px;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 10px;
+}
+
+#messageinput {
+    font-size: 16px;
+    width: 890px;
+    max-width: 890px;
+    height: 200px;
+    position: relative;
+    left: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 17px;
+    overflow: auto;
+    resize: both;
+}
+
+
+#input[type="button"], [type=submit] {
+    background: #4faaa5;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    border: none;
+    left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+#input[type="button"], [type=submit]:hover {
+    background: #47C7C0;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    border: none;
+    left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+#input[type="button"], [type=submit]:active {
+    background: #8FDED9;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    border: none;
+    left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: #777777;
+    font-size: 16px;
 }
