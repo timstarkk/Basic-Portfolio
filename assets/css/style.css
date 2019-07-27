@@ -131,7 +131,7 @@ main {
 }
 
 #image {
-    display: inline-block;
+    display: block;
     height: 200px;
     width: 200px;
     float: left;
@@ -171,6 +171,7 @@ footer {
     top: 30px;
     margin-bottom: 0px;
 }
+
 /* *****CONTACT FORM STYLING BELOW HERE***** */
 
 #contactline {
@@ -195,7 +196,7 @@ footer {
 
 #input {
     font-size: 16px;
-    width: 884px;
+    width: 875px;
     position: relative;
     left: 30px;
     padding: 5px 0px 5px 10px;
@@ -204,8 +205,8 @@ footer {
 
 #messageinput {
     font-size: 16px;
-    width: 890px;
-    max-width: 890px;
+    width: 884px;
+    max-width: 884px;
     height: 200px;
     position: relative;
     left: 30px;
@@ -228,37 +229,63 @@ footer {
     padding-bottom: 10px;
     padding-top: 10px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 #input[type="button"], [type=submit]:hover {
     background: #47C7C0;
-    color: white;
-    font-size: 18px;
-    height: 40px;
-    width: 120px;
-    position: relative;
-    border: none;
-    left: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 30px;
 }
 
 #input[type="button"], [type=submit]:active {
     background: #8FDED9;
-    color: white;
-    font-size: 18px;
-    height: 40px;
-    width: 120px;
-    position: relative;
-    border: none;
-    left: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 30px;
 }
 
 ::placeholder {
     color: #777777;
     font-size: 16px;
+}
+
+/* ***** PORTFOLIO STYLING BELOW HERE ***** */
+
+.spacer {
+    padding-top: 20px;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    max-width: 275px;
+    display: inline-block;
+    margin-left: 30px;
+  }
+  
+  .container2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container2 .btn {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: absolute;
+    width: 100%;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: #4faaa5;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+
+.container2 .btn:hover {
+    background: #47c7c0;
+  }
+
+.container2 .btn:active {
+    background: #8FDED9;
 }
