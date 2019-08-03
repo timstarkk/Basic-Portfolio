@@ -421,7 +421,11 @@ MAIN CONTENT STYLING FOR ABOUT ME
 	#content-wrap {
 		margin-bottom: 120px;
 	}
-
+	
+	#aboutmeline {
+		width: 90vw;
+		max-width: 90vw;
+	}
 	/* 
 ************ { STYLING FOR PORTFOLIO PAGE } *************
 */
@@ -480,6 +484,10 @@ MAIN CONTENT STYLING FOR ABOUT ME
 	 width: 100vw;
  }
 
+ #aboutmeline {
+	 width: 90vw;
+	 max-width: 90vw;
+ }
  #image {
 	 height: 50vw;
 	 width: 50vw;
